@@ -1,8 +1,5 @@
 FROM centos:7
 
-# Author
-MAINTAINER ysato <yusuke.sato06@g.softbank.co.jp>
-
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 # Copy Init file
